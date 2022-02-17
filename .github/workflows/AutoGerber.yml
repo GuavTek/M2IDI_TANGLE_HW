@@ -1,0 +1,70 @@
+# This is a basic workflow to help you get started with Actions
+
+name: AutoGerber
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+    paths:
+    - '**.sch'
+    - '**.kicad_pcb'
+  pull_request:
+    branches: [ main ]
+    paths:
+    - '**.sch'
+    - '**.kicad_pcb'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  Production_Files:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: nerdyscout/kicad-exports@v2.3.1
+      with:
+      # Required - kibot config file
+        config: JLC.kibot.yaml
+      # optional - prefix to output defined in config
+        dir: Core/outputs
+      # optional - schematic file
+        schema: 'Core/MIDI_Tangle.sch'
+      # optional - PCB design file
+        board: 'Core/MIDI_Tangle.kicad_pcb'
+      # optional - verbose output info
+        verbose: 0
+    - uses: nerdyscout/kicad-exports@v2.3.1
+      with:
+      # Required - kibot config file
+        config: JLC.kibot.yaml
+      # optional - prefix to output defined in config
+        dir: IO/outputs
+      # optional - schematic file
+        schema: 'IO/MIDI_Tangle_IO.sch'
+      # optional - PCB design file
+        board: 'IO/MIDI_Tangle_IO.kicad_pcb'
+      # optional - verbose output info
+        verbose: 0
+    - uses: nerdyscout/kicad-exports@v2.3.1
+      with:
+      # Required - kibot config file
+        config: JLC.kibot.yaml
+      # optional - prefix to output defined in config
+        dir: Front/outputs
+      # optional - schematic file
+        schema: 'Front/MIDI_Tangle_Front.sch'
+      # optional - PCB design file
+        board: 'Front/MIDI_Tangle_Front.kicad_pcb'
+      # optional - verbose output info
+        verbose: 0
+    - name: upload results
+      uses: actions/upload-artifact@v2
+      with:
+        name: ProdFiles
+        path: |
+          Core/outputs/
+          IO/outputs/
+          Front/outputs/
