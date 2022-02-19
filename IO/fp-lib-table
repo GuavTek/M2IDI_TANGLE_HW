@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Custom_FP)(type KiCad)(uri D:/Brødristern/Documents/GitHub/MIDIBUS_TANGLE_HW/Custom_FP/Custom_FP.pretty)(options "")(descr ""))
+)

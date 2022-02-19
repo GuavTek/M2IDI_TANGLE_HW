@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DG408
+D Analog Multiplexer 1:8
+K MUX analog bidirectional 1:8
+$ENDCMP
+#
+#End Doc Library

@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CustomLib:DG408 U?
+L Custom_Sym:DG408 U?
 U 1 1 6041C336
 P 3000 1900
 AR Path="/6041C336" Ref="U?"  Part="1" 
@@ -259,7 +259,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 1900 3500 1900
 $Comp
-L CustomLib:DG408 U?
+L Custom_Sym:DG408 U?
 U 1 1 60465DBA
 P 3050 4000
 AR Path="/60465DBA" Ref="U?"  Part="1" 
@@ -336,7 +336,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 4000 3550 4000
 $Comp
-L CustomLib:DG408 U?
+L Custom_Sym:DG408 U?
 U 1 1 6046F2FE
 P 3100 6100
 AR Path="/6046F2FE" Ref="U?"  Part="1" 
@@ -413,7 +413,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 6100 3600 6100
 $Comp
-L CustomLib:DG408 U?
+L Custom_Sym:DG408 U?
 U 1 1 60472B23
 P 5050 1900
 AR Path="/60472B23" Ref="U?"  Part="1" 
@@ -490,7 +490,7 @@ Wire Wire Line
 Wire Wire Line
 	5600 1900 5550 1900
 $Comp
-L CustomLib:DG408 U?
+L Custom_Sym:DG408 U?
 U 1 1 60472B5F
 P 5100 4000
 AR Path="/60472B5F" Ref="U?"  Part="1" 
@@ -567,7 +567,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 4000 5600 4000
 $Comp
-L CustomLib:DG408 U?
+L Custom_Sym:DG408 U?
 U 1 1 60472B9B
 P 5150 6100
 AR Path="/60472B9B" Ref="U?"  Part="1" 
@@ -644,7 +644,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 6100 5650 6100
 $Comp
-L CustomLib:DG408 U?
+L Custom_Sym:DG408 U?
 U 1 1 60488951
 P 7350 1950
 AR Path="/60488951" Ref="U?"  Part="1" 
@@ -721,7 +721,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 1950 7850 1950
 $Comp
-L CustomLib:DG408 U?
+L Custom_Sym:DG408 U?
 U 1 1 6048898D
 P 7400 4050
 AR Path="/6048898D" Ref="U?"  Part="1" 

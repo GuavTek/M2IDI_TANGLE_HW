@@ -265,7 +265,7 @@ U 1 1 60EF2ED9
 P 1200 1450
 F 0 "J1" H 1307 2317 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 1307 2226 50  0000 C CNN
-F 2 "CustomLib:USB_C_Receptacle_GCT_USB4085_Slimmed" H 1350 1450 50  0001 C CNN
+F 2 "Custom_FP:USB_C_Receptacle_GCT_USB4085_Slimmed" H 1350 1450 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1350 1450 50  0001 C CNN
 	1    1200 1450
 	1    0    0    -1  
@@ -1016,7 +1016,7 @@ U 1 1 60C1EF7E
 P 5700 7300
 F 0 "SW1" H 5700 7785 50  0000 C CNN
 F 1 "SW_Push_DPDT" H 5700 7694 50  0000 C CNN
-F 2 "CustomLib:SlideDPDT_JS202011" H 5700 7500 50  0001 C CNN
+F 2 "Custom_FP:SlideDPDT_JS202011" H 5700 7500 50  0001 C CNN
 F 3 "~" H 5700 7500 50  0001 C CNN
 	1    5700 7300
 	1    0    0    -1  
@@ -1063,7 +1063,7 @@ U 1 1 61143D76
 P 6000 4900
 F 0 "J2" H 6080 4892 50  0000 L CNN
 F 1 "Conn_01x04" H 6080 4801 50  0000 L CNN
-F 2 "CustomLib:MicroMatch_04_Vertical_SMD" H 6000 4900 50  0001 C CNN
+F 2 "Custom_FP:MicroMatch_04_Vertical_SMD" H 6000 4900 50  0001 C CNN
 F 3 "~" H 6000 4900 50  0001 C CNN
 	1    6000 4900
 	1    0    0    -1  
@@ -1310,7 +1310,7 @@ U 1 1 611480D4
 P 1800 6500
 F 0 "Y1" V 1754 6631 50  0000 L CNN
 F 1 "20MHz" V 1845 6631 50  0000 L CNN
-F 2 "CustomLib:Crystal_2pin_2.0x2.5mm" H 1800 6500 50  0001 C CNN
+F 2 "Custom_FP:Crystal_2pin_2.0x2.5mm" H 1800 6500 50  0001 C CNN
 F 3 "~" H 1800 6500 50  0001 C CNN
 	1    1800 6500
 	0    1    1    0   
