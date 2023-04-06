@@ -1296,13 +1296,13 @@ Butt3
 Text GLabel 2850 1650 1    50   Output ~ 0
 Butt4
 Text GLabel 3350 1650 1    50   Output ~ 0
-Butt5
+Butt1
 Text GLabel 3850 1650 1    50   Output ~ 0
-Butt6
+Butt2
 Text GLabel 4350 1650 1    50   Output ~ 0
-Butt7
+Butt3
 Text GLabel 4850 1650 1    50   Output ~ 0
-Butt8
+Butt4
 Text GLabel 1700 3450 2    50   Input ~ 0
 JackI1
 Text GLabel 1700 3550 2    50   Input ~ 0
@@ -1316,7 +1316,7 @@ JackO1
 Text GLabel 1700 3950 2    50   Input ~ 0
 JackO2
 Text GLabel 1700 3850 2    50   Input ~ 0
-ButtSel1
+ButtSelX
 $Comp
 L power:GND #PWR0126
 U 1 1 60E18C71
@@ -1369,8 +1369,6 @@ Text GLabel 2650 4050 2    50   Input ~ 0
 JackO3
 Text GLabel 2650 3950 2    50   Input ~ 0
 JackO4
-Text GLabel 2650 3850 2    50   Input ~ 0
-ButtSel2
 $Comp
 L power:GND #PWR0127
 U 1 1 60E3EFB4
@@ -1390,8 +1388,6 @@ Wire Wire Line
 	2550 4050 2650 4050
 Wire Wire Line
 	2650 3950 2550 3950
-Wire Wire Line
-	2550 3850 2650 3850
 Wire Wire Line
 	2650 3750 2550 3750
 Wire Wire Line
@@ -1415,26 +1411,18 @@ Text GLabel 3600 3450 2    50   Input ~ 0
 JackI5
 Text GLabel 3600 3550 2    50   Input ~ 0
 JackI6
-Text GLabel 3600 3650 2    50   Input ~ 0
-Butt5
-Text GLabel 3600 3750 2    50   Input ~ 0
-Butt6
 Text GLabel 3600 4050 2    50   Input ~ 0
 JackO5
 Text GLabel 3600 3950 2    50   Input ~ 0
 JackO6
 Text GLabel 3600 3850 2    50   Input ~ 0
-ButtSel3
+ButtSelY
 Wire Wire Line
 	3500 4050 3600 4050
 Wire Wire Line
 	3600 3950 3500 3950
 Wire Wire Line
 	3500 3850 3600 3850
-Wire Wire Line
-	3600 3750 3500 3750
-Wire Wire Line
-	3500 3650 3600 3650
 Wire Wire Line
 	3600 3550 3500 3550
 Wire Wire Line
@@ -1454,16 +1442,10 @@ Text GLabel 4500 3450 2    50   Input ~ 0
 JackI7
 Text GLabel 4500 3550 2    50   Input ~ 0
 JackI8
-Text GLabel 4500 3650 2    50   Input ~ 0
-Butt7
-Text GLabel 4500 3750 2    50   Input ~ 0
-Butt8
 Text GLabel 4500 4050 2    50   Input ~ 0
 JackO7
 Text GLabel 4500 3950 2    50   Input ~ 0
 JackO8
-Text GLabel 4500 3850 2    50   Input ~ 0
-ButtSel4
 $Comp
 L power:GND #PWR0128
 U 1 1 60E62373
@@ -1484,17 +1466,11 @@ Wire Wire Line
 Wire Wire Line
 	4500 3950 4400 3950
 Wire Wire Line
-	4400 3850 4500 3850
-Wire Wire Line
-	4500 3750 4400 3750
-Wire Wire Line
-	4400 3650 4500 3650
-Wire Wire Line
 	4500 3550 4400 3550
 Wire Wire Line
 	4400 3450 4500 3450
 Text GLabel 1350 2300 3    50   Input ~ 0
-ButtSel1
+ButtSelX
 Wire Wire Line
 	1350 2300 1350 2250
 Wire Wire Line
@@ -1516,9 +1492,9 @@ Wire Wire Line
 	4350 2250 4850 2250
 Connection ~ 4350 2250
 Text GLabel 2350 2300 3    50   Input ~ 0
-ButtSel2
+ButtSelX
 Text GLabel 3350 2300 3    50   Input ~ 0
-ButtSel3
+ButtSelY
 Text GLabel 4350 2300 3    50   Input ~ 0
-ButtSel4
+ButtSelY
 $EndSCHEMATC

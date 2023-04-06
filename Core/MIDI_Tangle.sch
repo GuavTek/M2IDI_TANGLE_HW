@@ -645,164 +645,138 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x08_Female J?
 U 1 1 60F7789C
-P 6500 1000
+P 4950 1000
 AR Path="/60AC3432/60F7789C" Ref="J?"  Part="1" 
 AR Path="/60F7789C" Ref="J6"  Part="1" 
-F 0 "J6" H 6528 976 50  0000 L CNN
-F 1 "Conn_01x08_Female" H 6528 885 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical_SMD_Pin1Left" H 6500 1000 50  0001 C CNN
-F 3 "~" H 6500 1000 50  0001 C CNN
-	1    6500 1000
+F 0 "J6" H 4978 976 50  0000 L CNN
+F 1 "Conn_01x08_Female" H 4978 885 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical_SMD_Pin1Left" H 4950 1000 50  0001 C CNN
+F 3 "~" H 4950 1000 50  0001 C CNN
+	1    4950 1000
 	1    0    0    -1  
 $EndComp
-Text GLabel 6200 700  0    50   Input ~ 0
+Text GLabel 4650 700  0    50   Input ~ 0
 In3
-Text GLabel 6200 800  0    50   Input ~ 0
+Text GLabel 4650 800  0    50   Input ~ 0
 In4
-Text GLabel 6200 900  0    50   Input ~ 0
+Text GLabel 4650 900  0    50   Input ~ 0
 Butt_C
-Text GLabel 6200 1000 0    50   Input ~ 0
+Text GLabel 4650 1000 0    50   Input ~ 0
 Butt_D
-Text GLabel 6200 1100 0    50   Input ~ 0
-Butt_X
-Text GLabel 6200 1200 0    50   Input ~ 0
+Text GLabel 4650 1200 0    50   Input ~ 0
 Out4
-Text GLabel 6200 1300 0    50   Input ~ 0
+Text GLabel 4650 1300 0    50   Input ~ 0
 Out3
 $Comp
 L power:GND #PWR?
 U 1 1 60F778A9
-P 6200 1500
+P 4650 1500
 AR Path="/60AC3432/60F778A9" Ref="#PWR?"  Part="1" 
 AR Path="/60F778A9" Ref="#PWR0114"  Part="1" 
-F 0 "#PWR0114" H 6200 1250 50  0001 C CNN
-F 1 "GND" H 6205 1327 50  0000 C CNN
-F 2 "" H 6200 1500 50  0001 C CNN
-F 3 "" H 6200 1500 50  0001 C CNN
-	1    6200 1500
+F 0 "#PWR0114" H 4650 1250 50  0001 C CNN
+F 1 "GND" H 4655 1327 50  0000 C CNN
+F 2 "" H 4650 1500 50  0001 C CNN
+F 3 "" H 4650 1500 50  0001 C CNN
+	1    4650 1500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6200 1500 6200 1400
+	4650 1500 4650 1400
 Wire Wire Line
-	6200 1400 6300 1400
+	4650 1400 4750 1400
 Wire Wire Line
-	6300 1300 6200 1300
+	4750 1300 4650 1300
 Wire Wire Line
-	6200 1200 6300 1200
+	4650 1200 4750 1200
 Wire Wire Line
-	6300 1100 6200 1100
+	4650 1000 4750 1000
 Wire Wire Line
-	6200 1000 6300 1000
+	4750 900  4650 900 
 Wire Wire Line
-	6300 900  6200 900 
+	4650 800  4750 800 
 Wire Wire Line
-	6200 800  6300 800 
-Wire Wire Line
-	6300 700  6200 700 
+	4750 700  4650 700 
 $Comp
 L Connector:Conn_01x08_Female J?
 U 1 1 60F778B8
-P 5100 2350
+P 6300 1100
 AR Path="/60AC3432/60F778B8" Ref="J?"  Part="1" 
 AR Path="/60F778B8" Ref="J7"  Part="1" 
-F 0 "J7" H 5128 2326 50  0000 L CNN
-F 1 "Conn_01x08_Female" H 5128 2235 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical_SMD_Pin1Left" H 5100 2350 50  0001 C CNN
-F 3 "~" H 5100 2350 50  0001 C CNN
-	1    5100 2350
+F 0 "J7" H 6328 1076 50  0000 L CNN
+F 1 "Conn_01x08_Female" H 6328 985 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical_SMD_Pin1Left" H 6300 1100 50  0001 C CNN
+F 3 "~" H 6300 1100 50  0001 C CNN
+	1    6300 1100
 	1    0    0    -1  
 $EndComp
-Text GLabel 4800 2050 0    50   Input ~ 0
+Text GLabel 6000 800  0    50   Input ~ 0
 In5
-Text GLabel 4800 2150 0    50   Input ~ 0
+Text GLabel 6000 900  0    50   Input ~ 0
 In6
-Text GLabel 4800 2250 0    50   Input ~ 0
-Butt_A
-Text GLabel 4800 2350 0    50   Input ~ 0
-Butt_B
-Text GLabel 4800 2450 0    50   Input ~ 0
-Butt_Y
-Text GLabel 4800 2550 0    50   Input ~ 0
+Text GLabel 6000 1300 0    50   Input ~ 0
 Out6
-Text GLabel 4800 2650 0    50   Input ~ 0
+Text GLabel 6000 1400 0    50   Input ~ 0
 Out5
 Wire Wire Line
-	4900 2650 4800 2650
+	6100 1400 6000 1400
 Wire Wire Line
-	4800 2550 4900 2550
+	6000 1300 6100 1300
 Wire Wire Line
-	4900 2450 4800 2450
+	6000 900  6100 900 
 Wire Wire Line
-	4800 2350 4900 2350
-Wire Wire Line
-	4900 2250 4800 2250
-Wire Wire Line
-	4800 2150 4900 2150
-Wire Wire Line
-	4900 2050 4800 2050
+	6100 800  6000 800 
 $Comp
 L Connector:Conn_01x08_Female J?
 U 1 1 60F778CC
-P 5000 1000
+P 7900 1100
 AR Path="/60AC3432/60F778CC" Ref="J?"  Part="1" 
 AR Path="/60F778CC" Ref="J8"  Part="1" 
-F 0 "J8" H 5028 976 50  0000 L CNN
-F 1 "Conn_01x08_Female" H 5028 885 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical_SMD_Pin1Left" H 5000 1000 50  0001 C CNN
-F 3 "~" H 5000 1000 50  0001 C CNN
-	1    5000 1000
+F 0 "J8" H 7928 1076 50  0000 L CNN
+F 1 "Conn_01x08_Female" H 7928 985 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical_SMD_Pin1Left" H 7900 1100 50  0001 C CNN
+F 3 "~" H 7900 1100 50  0001 C CNN
+	1    7900 1100
 	1    0    0    -1  
 $EndComp
-Text GLabel 4700 700  0    50   Input ~ 0
+Text GLabel 7600 800  0    50   Input ~ 0
 In7
-Text GLabel 4700 800  0    50   Input ~ 0
+Text GLabel 7600 900  0    50   Input ~ 0
 In8
-Text GLabel 4700 900  0    50   Input ~ 0
-Butt_C
-Text GLabel 4700 1000 0    50   Input ~ 0
-Butt_D
-Text GLabel 4700 1100 0    50   Input ~ 0
+Text GLabel 6000 1200 0    50   Input ~ 0
 Butt_Y
-Text GLabel 4700 1200 0    50   Input ~ 0
+Text GLabel 7600 1300 0    50   Input ~ 0
 Out8
-Text GLabel 4700 1300 0    50   Input ~ 0
+Text GLabel 7600 1400 0    50   Input ~ 0
 Out7
 $Comp
 L power:GND #PWR?
 U 1 1 60F778D9
-P 4700 1500
+P 7600 1600
 AR Path="/60AC3432/60F778D9" Ref="#PWR?"  Part="1" 
 AR Path="/60F778D9" Ref="#PWR0115"  Part="1" 
-F 0 "#PWR0115" H 4700 1250 50  0001 C CNN
-F 1 "GND" H 4705 1327 50  0000 C CNN
-F 2 "" H 4700 1500 50  0001 C CNN
-F 3 "" H 4700 1500 50  0001 C CNN
-	1    4700 1500
+F 0 "#PWR0115" H 7600 1350 50  0001 C CNN
+F 1 "GND" H 7605 1427 50  0000 C CNN
+F 2 "" H 7600 1600 50  0001 C CNN
+F 3 "" H 7600 1600 50  0001 C CNN
+	1    7600 1600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4700 1500 4700 1400
+	7600 1600 7600 1500
 Wire Wire Line
-	4700 1400 4800 1400
+	7600 1500 7700 1500
 Wire Wire Line
-	4800 1300 4700 1300
+	7700 1400 7600 1400
 Wire Wire Line
-	4700 1200 4800 1200
+	7600 1300 7700 1300
 Wire Wire Line
-	4800 1100 4700 1100
+	7600 900  7700 900 
 Wire Wire Line
-	4700 1000 4800 1000
-Wire Wire Line
-	4800 900  4700 900 
-Wire Wire Line
-	4700 800  4800 800 
-Wire Wire Line
-	4800 700  4700 700 
-Text GLabel 4800 2750 0    50   Input ~ 0
+	7700 800  7600 800 
+Text GLabel 6000 1500 0    50   Input ~ 0
 LED
 Wire Wire Line
-	4800 2750 4900 2750
+	6000 1500 6100 1500
 Text GLabel 10250 800  0    50   Input ~ 0
 M01
 Text GLabel 10250 900  0    50   Input ~ 0
@@ -1440,4 +1414,6 @@ Wire Wire Line
 	10650 5250 10650 5200
 Wire Wire Line
 	10650 4900 10650 4800
+Wire Wire Line
+	6000 1200 6100 1200
 $EndSCHEMATC
