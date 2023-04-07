@@ -1,4 +1,4 @@
-19567278612555041
+19584189762809041
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49686,6 +49686,13 @@ LED_KPA3010
 3
 3
 CustomLib
+LED_LiteOn_LTST-C195TGKRKT
+LiteOn RGB LED; https://optoelectronics.liteon.com/upload/download/DS22-2008-0044/LTST-C19HE1WT.pdf
+LED RGB Chip SMD
+0
+4
+4
+CustomLib
 MicroMatch_04_Angled
 
 
@@ -49694,6 +49701,13 @@ MicroMatch_04_Angled
 4
 CustomLib
 MicroMatch_04_Vertical_SMD
+
+
+0
+4
+4
+CustomLib
+MicroMatch_04_Vertical_SMD_Lock
 
 
 0
@@ -49713,6 +49727,13 @@ PYBE30-Q24-D15
 0
 6
 6
+CustomLib
+PinSocket_1x08_P2.54mm_Vertical_SMD_Pin1Both
+surface-mounted straight socket strip, 1x10, 2.54mm pitch, single row, style 2 (pin 1 right) (https://cdn.harwin.com/pdfs/M20-786.pdf), script generated
+Surface mounted socket strip SMD 1x10 2.54mm single row style2 pin1 right
+0
+16
+8
 CustomLib
 PinSocket_1x10_P2.54mm_Vertical_SMD_Pin1Both
 surface-mounted straight socket strip, 1x10, 2.54mm pitch, single row, style 2 (pin 1 right) (https://cdn.harwin.com/pdfs/M20-786.pdf), script generated
@@ -49812,12 +49833,26 @@ SlideSwitch-SS12D10
 3
 3
 CustomLib
+TSM103-DH
+
+
+0
+6
+6
+CustomLib
 TactileHole
 
 
 0
 0
 0
+CustomLib
+Tactile_angled_5x5.4_SMD
+
+
+0
+4
+4
 CustomLib
 Teensy4
 
@@ -49909,48 +49944,6 @@ GuavTek_Logo_S
 0
 0
 0
-CustomPanel
-Jack_JYO35
-
-
-0
-1
-1
-CustomPanel
-Pot_TV09
-
-
-0
-0
-0
-CustomPanel
-SW_Rotary_M9
-
-
-0
-0
-0
-CustomPanel
-SW_SPDT
-
-
-0
-0
-0
-CustomPanel
-Switch_BatToggle
-
-
-0
-1
-1
-CustomPanel
-Switch_SS12D10
-
-
-0
-0
-0
 Custom_FP
 Crystal_2pin_2.0x2.5mm
 
@@ -49980,12 +49973,26 @@ LED Round FlatTop diameter 5.0mm 2 pins
 2
 2
 Custom_FP
+LED_LiteOn_LTST-C195TGKRKT
+LiteOn RGB LED; https://optoelectronics.liteon.com/upload/download/DS22-2008-0044/LTST-C19HE1WT.pdf
+LED RGB Chip SMD
+0
+4
+4
+Custom_FP
 MicroMatch_04_Vertical_SMD
 
 
 0
 4
 4
+Custom_FP
+MountingHole_PJ398SM
+Mounting Hole 6.4mm, no annular, M6
+mounting hole 6.4mm no annular m6
+0
+1
+1
 Custom_FP
 PJ398SM
 
@@ -50008,6 +50015,13 @@ TactileHole
 0
 0
 Custom_FP
+Tactile_angled_5x5.4_SMD
+
+
+0
+4
+4
+Custom_FP
 USB_C_Receptacle_GCT_USB4085_Slimmed
 USB 2.0 Type C Receptacle, https://gct.co/Files/Drawings/USB4085.pdf
 USB Type-C Receptacle Through-hole Right angle
@@ -50015,12 +50029,68 @@ USB Type-C Receptacle Through-hole Right angle
 20
 17
 Custom_FP
+VLP-LightPipes
+
+
+0
+0
+0
+Custom_FP
 Wide_M3
 
 
 0
 1
 1
+Custom_Panelholes
+Jack_JYO35
+
+
+0
+0
+0
+Custom_Panelholes
+Jack_JYO35_Out
+
+
+0
+0
+0
+Custom_Panelholes
+Pot_TV09
+
+
+0
+0
+0
+Custom_Panelholes
+SW_Rotary_M9
+
+
+0
+0
+0
+Custom_Panelholes
+SW_SPDT
+
+
+0
+0
+0
+Custom_Panelholes
+Switch_BatToggle
+
+
+0
+1
+1
+Custom_Panelholes
+Switch_SS12D10
+
+
+0
+0
+0
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
