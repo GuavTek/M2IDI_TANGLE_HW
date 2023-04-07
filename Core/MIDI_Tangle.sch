@@ -16,16 +16,16 @@ $EndDescr
 $Comp
 L power:GND #PWR0101
 U 1 1 60626042
-P 7750 6250
-F 0 "#PWR0101" H 7750 6000 50  0001 C CNN
-F 1 "GND" H 7755 6077 50  0000 C CNN
-F 2 "" H 7750 6250 50  0001 C CNN
-F 3 "" H 7750 6250 50  0001 C CNN
-	1    7750 6250
+P 9100 6250
+F 0 "#PWR0101" H 9100 6000 50  0001 C CNN
+F 1 "GND" H 9105 6077 50  0000 C CNN
+F 2 "" H 9100 6250 50  0001 C CNN
+F 3 "" H 9100 6250 50  0001 C CNN
+	1    9100 6250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7850 1950 7850 2100
+	9200 1950 9200 2100
 $Sheet
 S 2550 3750 950  600 
 U 606322A8
@@ -33,33 +33,33 @@ F0 "Power" 50
 F1 "Power.sch" 50
 $EndSheet
 Wire Wire Line
-	7650 6150 7650 6000
+	9000 6150 9000 6000
 Wire Wire Line
-	7750 6150 7750 6250
+	9100 6150 9100 6250
 Wire Wire Line
-	7750 6000 7750 6150
-Connection ~ 7750 6150
+	9100 6000 9100 6150
+Connection ~ 9100 6150
 Wire Wire Line
-	7750 6150 7650 6150
+	9100 6150 9000 6150
 Wire Wire Line
-	7850 2100 7750 2100
-Connection ~ 7850 2100
+	9200 2100 9100 2100
+Connection ~ 9200 2100
 Wire Wire Line
-	7850 2100 7850 2200
+	9200 2100 9200 2200
 Wire Wire Line
-	7650 2200 7650 2100
+	9000 2200 9000 2100
 Wire Wire Line
-	7750 2200 7750 2100
-Connection ~ 7750 2100
+	9100 2200 9100 2100
+Connection ~ 9100 2100
 Wire Wire Line
-	7750 2100 7650 2100
-Text GLabel 8650 5500 2    50   Input ~ 0
+	9100 2100 9000 2100
+Text GLabel 10000 5500 2    50   Input ~ 0
 SWCLK
-Text GLabel 8650 5600 2    50   Input ~ 0
+Text GLabel 10000 5600 2    50   Input ~ 0
 SWDIO
 Wire Wire Line
-	8450 5500 8650 5500
-Text GLabel 8550 5800 2    50   Input ~ 0
+	9800 5500 10000 5500
+Text GLabel 9900 5800 2    50   Input ~ 0
 RESET
 $Comp
 L Connector:Conn_01x06_Male J4
@@ -114,79 +114,79 @@ Wire Wire Line
 	1000 4050 850  4050
 Text GLabel 850  4050 0    50   Output ~ 0
 Butt_A
-Text GLabel 8550 5300 2    50   Output ~ 0
+Text GLabel 9900 5300 2    50   Output ~ 0
 LED
 Wire Wire Line
-	8550 5800 8450 5800
+	9900 5800 9800 5800
 $Comp
 L Device:C C3
 U 1 1 60964B0B
-P 8600 1950
-F 0 "C3" H 8715 1996 50  0000 L CNN
-F 1 "1µF" H 8715 1905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8638 1800 50  0001 C CNN
-F 3 "~" H 8600 1950 50  0001 C CNN
-	1    8600 1950
+P 9950 1950
+F 0 "C3" H 10065 1996 50  0000 L CNN
+F 1 "1µF" H 10065 1905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9988 1800 50  0001 C CNN
+F 3 "~" H 9950 1950 50  0001 C CNN
+	1    9950 1950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0102
 U 1 1 60965447
-P 8600 2150
-F 0 "#PWR0102" H 8600 1900 50  0001 C CNN
-F 1 "GND" H 8605 1977 50  0000 C CNN
-F 2 "" H 8600 2150 50  0001 C CNN
-F 3 "" H 8600 2150 50  0001 C CNN
-	1    8600 2150
+P 9950 2150
+F 0 "#PWR0102" H 9950 1900 50  0001 C CNN
+F 1 "GND" H 9955 1977 50  0000 C CNN
+F 2 "" H 9950 2150 50  0001 C CNN
+F 3 "" H 9950 2150 50  0001 C CNN
+	1    9950 2150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8600 2150 8600 2100
+	9950 2150 9950 2100
 Wire Wire Line
-	8600 1750 8600 1800
+	9950 1750 9950 1800
 $Comp
 L MCU_Microchip_SAMD:ATSAMD21G15B-A U1
 U 1 1 60CF51F6
-P 7750 4100
-F 0 "U1" H 7750 2111 50  0000 C CNN
-F 1 "ATSAMD21G15B-A" H 7750 2020 50  0000 C CNN
-F 2 "Package_QFP:TQFP-48_7x7mm_P0.5mm" H 8650 2250 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf" H 7750 5100 50  0001 C CNN
-	1    7750 4100
+P 9100 4100
+F 0 "U1" H 9100 2111 50  0000 C CNN
+F 1 "ATSAMD21G15B-A" H 9100 2020 50  0000 C CNN
+F 2 "Package_QFP:TQFP-48_7x7mm_P0.5mm" H 10000 2250 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf" H 9100 5100 50  0001 C CNN
+	1    9100 4100
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	7450 2200 7450 2100
+	8800 2200 8800 2100
 Wire Wire Line
-	7450 2100 7650 2100
-Connection ~ 7650 2100
+	8800 2100 9000 2100
+Connection ~ 9000 2100
 $Comp
 L power:+3V3 #PWR0103
 U 1 1 60D3DE99
-P 7850 1950
-F 0 "#PWR0103" H 7850 1800 50  0001 C CNN
-F 1 "+3V3" H 7865 2123 50  0000 C CNN
-F 2 "" H 7850 1950 50  0001 C CNN
-F 3 "" H 7850 1950 50  0001 C CNN
-	1    7850 1950
+P 9200 1950
+F 0 "#PWR0103" H 9200 1800 50  0001 C CNN
+F 1 "+3V3" H 9215 2123 50  0000 C CNN
+F 2 "" H 9200 1950 50  0001 C CNN
+F 3 "" H 9200 1950 50  0001 C CNN
+	1    9200 1950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8600 1750 8050 1750
+	9950 1750 9400 1750
 Wire Wire Line
-	8050 1750 8050 2200
-Text GLabel 8550 4900 2    50   BiDi ~ 0
+	9400 1750 9400 2200
+Text GLabel 9900 4900 2    50   BiDi ~ 0
 USB_D-
-Text GLabel 8550 5000 2    50   BiDi ~ 0
+Text GLabel 9900 5000 2    50   BiDi ~ 0
 USB_D+
 Wire Wire Line
-	8550 5000 8450 5000
+	9900 5000 9800 5000
 Wire Wire Line
-	8450 4900 8550 4900
+	9800 4900 9900 4900
 Wire Wire Line
-	8550 4100 8450 4100
+	9900 4100 9800 4100
 Wire Wire Line
-	8450 4300 8550 4300
+	9800 4300 9900 4300
 $Comp
 L power:+3V3 #PWR0104
 U 1 1 60DB05F3
@@ -375,30 +375,30 @@ Wire Notes Line
 	2900 1900 4300 1900
 Wire Notes Line
 	2000 3200 2000 5000
-Text GLabel 6450 2850 0    50   Output ~ 0
+Text GLabel 7800 2850 0    50   Output ~ 0
 Butt_X
-Text GLabel 6450 2650 0    50   Output ~ 0
+Text GLabel 7800 2650 0    50   Output ~ 0
 Butt_Y
-Text GLabel 6950 3500 0    50   Input ~ 0
+Text GLabel 8300 3500 0    50   Input ~ 0
 Butt_A
-Text GLabel 6950 3600 0    50   Input ~ 0
+Text GLabel 8300 3600 0    50   Input ~ 0
 Butt_B
-Text GLabel 8550 2800 2    50   Input ~ 0
+Text GLabel 9900 2800 2    50   Input ~ 0
 Butt_C
-Text GLabel 8550 2700 2    50   Input ~ 0
+Text GLabel 9900 2700 2    50   Input ~ 0
 Butt_D
 Wire Wire Line
-	8550 2700 8450 2700
+	9900 2700 9800 2700
 Wire Wire Line
-	8450 2800 8550 2800
+	9800 2800 9900 2800
 Wire Wire Line
-	6950 3600 7050 3600
+	8300 3600 8400 3600
 Wire Wire Line
-	7050 3500 6950 3500
+	8400 3500 8300 3500
 Wire Wire Line
-	6950 2800 7050 2800
+	8300 2800 8400 2800
 Wire Wire Line
-	7050 2700 6950 2700
+	8400 2700 8300 2700
 Wire Wire Line
 	1000 3550 1000 3650
 $Comp
@@ -505,37 +505,37 @@ $EndComp
 $Comp
 L Device:D_Schottky D3
 U 1 1 60F3B337
-P 6750 2650
-F 0 "D3" H 6750 2433 50  0000 C CNN
-F 1 "D_Schottky" H 6750 2524 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6750 2650 50  0001 C CNN
-F 3 "~" H 6750 2650 50  0001 C CNN
-	1    6750 2650
+P 8100 2650
+F 0 "D3" H 8100 2433 50  0000 C CNN
+F 1 "D_Schottky" H 8100 2524 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8100 2650 50  0001 C CNN
+F 3 "~" H 8100 2650 50  0001 C CNN
+	1    8100 2650
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Schottky D4
 U 1 1 60F3BA86
-P 6750 2850
-F 0 "D4" H 6750 3050 50  0000 C CNN
-F 1 "D_Schottky" H 6750 2950 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6750 2850 50  0001 C CNN
-F 3 "~" H 6750 2850 50  0001 C CNN
-	1    6750 2850
+P 8100 2850
+F 0 "D4" H 8100 3050 50  0000 C CNN
+F 1 "D_Schottky" H 8100 2950 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8100 2850 50  0001 C CNN
+F 3 "~" H 8100 2850 50  0001 C CNN
+	1    8100 2850
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6900 2650 6950 2650
+	8250 2650 8300 2650
 Wire Wire Line
-	6950 2650 6950 2700
+	8300 2650 8300 2700
 Wire Wire Line
-	6900 2850 6950 2850
+	8250 2850 8300 2850
 Wire Wire Line
-	6950 2850 6950 2800
+	8300 2850 8300 2800
 Wire Wire Line
-	6450 2850 6600 2850
+	7800 2850 7950 2850
 Wire Wire Line
-	6600 2650 6450 2650
+	7950 2650 7800 2650
 $Comp
 L Connector:Conn_01x08_Female J?
 U 1 1 60F77880
@@ -730,17 +730,17 @@ LED
 Wire Wire Line
 	6150 1500 6250 1500
 Wire Wire Line
-	8550 5300 8450 5300
+	9900 5300 9800 5300
 Wire Notes Line
 	2000 5000 500  5000
-Text GLabel 8550 4300 2    50   Output ~ 0
+Text GLabel 9900 4300 2    50   Output ~ 0
 SPI_MOSI
-Text GLabel 8550 4100 2    50   Input ~ 0
+Text GLabel 9900 4100 2    50   Input ~ 0
 SPI_MISO
-Text GLabel 8550 4200 2    50   Output ~ 0
+Text GLabel 9900 4200 2    50   Output ~ 0
 SPI_SS
 Wire Wire Line
-	8550 4200 8450 4200
+	9900 4200 9800 4200
 $Comp
 L Connector_Generic:Conn_01x04 J2
 U 1 1 61143D76
@@ -768,10 +768,10 @@ Wire Notes Line
 	4300 1900 4300 3200
 Wire Notes Line
 	2900 3200 2900 500 
-Text GLabel 8550 4400 2    50   Output ~ 0
+Text GLabel 9900 4400 2    50   Output ~ 0
 SPI_SCK
 Wire Wire Line
-	8550 4400 8450 4400
+	9900 4400 9800 4400
 $Comp
 L Device:R R9
 U 1 1 60ED0663
@@ -1202,13 +1202,13 @@ F 3 "~" H 5600 7000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Sheet
-S 9600 3400 650  450 
+S 10550 3100 650  450 
 U 603EE69F
 F0 "Core" 50
 F1 "Core.sch" 50
-F2 "Data" I L 9600 3500 50 
-F3 "Clk" I L 9600 3600 50 
-F4 "OutStrobe" I L 9600 3700 50 
+F2 "Data" I L 10550 3200 50 
+F3 "Clk" I L 10550 3300 50 
+F4 "OutStrobe" I L 10550 3400 50 
 $EndSheet
 Wire Notes Line
 	5900 3200 5900 1900
@@ -1241,7 +1241,7 @@ Wire Wire Line
 Wire Wire Line
 	4850 5450 4850 6500
 Wire Wire Line
-	8450 5600 8650 5600
+	9800 5600 10000 5600
 $Comp
 L Connector:USB_C_Receptacle_USB2.0 J1
 U 1 1 60EF2ED9
@@ -1253,12 +1253,6 @@ F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1350 14
 	1    1200 1450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8450 3500 9600 3500
-Wire Wire Line
-	8450 3600 9600 3600
-Wire Wire Line
-	8450 3700 9600 3700
 Text GLabel 4450 3950 2    50   Output ~ 0
 RESET
 Wire Wire Line
@@ -1349,8 +1343,101 @@ F 3 "" H 5000 4500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5000 4500 5000 4450
-Text GLabel 8550 5200 2    50   Input ~ 0
+Text GLabel 9900 5200 2    50   Input ~ 0
 PROG
 Wire Wire Line
-	8550 5200 8450 5200
+	9900 5200 9800 5200
+$Comp
+L Memory_EEPROM:CAT250xxx U?
+U 1 1 651596FF
+P 7250 5750
+F 0 "U?" H 7250 6231 50  0000 C CNN
+F 1 "CAT250xxx" H 7250 6140 50  0000 C CNN
+F 2 "" H 7250 5750 50  0001 C CNN
+F 3 "http://www.onsemi.com/PowerSolutions/product.do?id=CAT25040" H 7250 5750 50  0001 C CNN
+	1    7250 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 651A4E69
+P 7250 6100
+F 0 "#PWR?" H 7250 5850 50  0001 C CNN
+F 1 "GND" H 7255 5927 50  0000 C CNN
+F 2 "" H 7250 6100 50  0001 C CNN
+F 3 "" H 7250 6100 50  0001 C CNN
+	1    7250 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 651A55AA
+P 7250 5200
+F 0 "#PWR?" H 7250 5050 50  0001 C CNN
+F 1 "+3V3" H 7265 5373 50  0000 C CNN
+F 2 "" H 7250 5200 50  0001 C CNN
+F 3 "" H 7250 5200 50  0001 C CNN
+	1    7250 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 5200 7250 5450
+Wire Wire Line
+	7250 6100 7250 6050
+Text GLabel 7700 5650 2    50   Input ~ 0
+EEPROM_SCK
+Text GLabel 7700 5750 2    50   Input ~ 0
+EEPROM_MOSI
+Text GLabel 7700 5850 2    50   Output ~ 0
+EEPROM_MISO
+Text GLabel 6800 5850 0    50   Input ~ 0
+EEPROM_CS
+Text GLabel 6800 5750 0    50   Input ~ 0
+EEPROM_HOLD
+Text GLabel 6800 5650 0    50   Input ~ 0
+EEPROM_WP
+Wire Wire Line
+	7700 5850 7650 5850
+Wire Wire Line
+	7650 5750 7700 5750
+Wire Wire Line
+	7700 5650 7650 5650
+Wire Wire Line
+	6850 5650 6800 5650
+Wire Wire Line
+	6800 5750 6850 5750
+Wire Wire Line
+	6850 5850 6800 5850
+Text GLabel 9900 4000 2    50   Output ~ 0
+EEPROM_SCK
+Text GLabel 9900 3900 2    50   Output ~ 0
+EEPROM_MOSI
+Text GLabel 9900 3800 2    50   Output ~ 0
+EEPROM_CS
+Text GLabel 9900 3700 2    50   Input ~ 0
+EEPROM_MISO
+Wire Wire Line
+	10550 3300 10300 3300
+Wire Wire Line
+	10300 3300 10300 3600
+Wire Wire Line
+	10300 3600 9800 3600
+Wire Wire Line
+	9800 3400 10550 3400
+Wire Wire Line
+	9800 3500 10200 3500
+Wire Wire Line
+	10200 3500 10200 3200
+Wire Wire Line
+	10200 3200 10550 3200
+Wire Wire Line
+	9900 3700 9800 3700
+Wire Wire Line
+	9800 3800 9900 3800
+Wire Wire Line
+	9900 3900 9800 3900
+Wire Wire Line
+	9800 4000 9900 4000
+Text Notes 6950 5250 2    50   ~ 0
+TODO:\nWat do with HOLD and WP
 $EndSCHEMATC
