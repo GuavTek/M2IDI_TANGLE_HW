@@ -1,4 +1,4 @@
-19577383840000279
+19582508880251991
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49686,6 +49686,13 @@ LED_KPA3010
 3
 3
 CustomLib
+LED_LiteOn_LTST-C195TGKRKT
+LiteOn RGB LED; https://optoelectronics.liteon.com/upload/download/DS22-2008-0044/LTST-C19HE1WT.pdf
+LED RGB Chip SMD
+0
+4
+4
+CustomLib
 MicroMatch_04_Angled
 
 
@@ -49966,6 +49973,13 @@ LED Round FlatTop diameter 5.0mm 2 pins
 2
 2
 Custom_FP
+LED_LiteOn_LTST-C195TGKRKT
+LiteOn RGB LED; https://optoelectronics.liteon.com/upload/download/DS22-2008-0044/LTST-C19HE1WT.pdf
+LED RGB Chip SMD
+0
+4
+4
+Custom_FP
 MicroMatch_04_Vertical_SMD
 
 
@@ -50007,6 +50021,13 @@ USB Type-C Receptacle Through-hole Right angle
 0
 20
 17
+Custom_FP
+VLP-LightPipes
+
+
+0
+0
+0
 Custom_FP
 Wide_M3
 
