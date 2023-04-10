@@ -647,11 +647,11 @@
     (uuid f37e11fd-4c80-4680-8bc6-cf5fe4ea23f0)
   )
 
-  (hierarchical_label "out" (shape input) (at 127 109.22 180)
+  (hierarchical_label "out" (shape input) (at 127 109.22 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 3559e36e-2859-47ad-990c-f8a51d4bfe2e)
   )
-  (hierarchical_label "in" (shape output) (at 91.44 109.22 0)
+  (hierarchical_label "in" (shape output) (at 91.44 109.22 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 8a69aeb2-1a06-4d9e-9df3-c2cebd926ac8)
   )

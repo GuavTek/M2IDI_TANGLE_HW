@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -68,10 +68,10 @@
       40
     ],
     "visible_layers": "000ffff_80000001",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "meta": {
-    "filename": "MIDI_Tangle_IO.kicad_prl",
+    "filename": "MIDI_Tangle.kicad_prl",
     "version": 3
   },
   "project": {
