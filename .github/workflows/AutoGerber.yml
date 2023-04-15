@@ -23,7 +23,7 @@ jobs:
   Production_Files:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@main
     - uses: INTI-CMNB/KiBot@v2_k7
       with:
       # Required - kibot config file
@@ -61,7 +61,7 @@ jobs:
       # optional - verbose output info
         verbose: 0
     - name: upload results
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@main
       with:
         name: ProdFiles
         path: |
