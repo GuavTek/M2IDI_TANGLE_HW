@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "M2IDI_IO")
+    (date "2023-04-19")
+    (rev "1.1")
+    (company "GuavTek")
+  )
+
   (lib_symbols
     (symbol "Connector:AudioJack2_SwitchT" (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 8.89 0)

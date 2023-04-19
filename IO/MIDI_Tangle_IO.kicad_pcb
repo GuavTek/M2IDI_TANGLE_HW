@@ -5,6 +5,13 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "M2IDI_IO")
+    (date "2023-04-19")
+    (rev "1.1")
+    (company "GuavTek")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)

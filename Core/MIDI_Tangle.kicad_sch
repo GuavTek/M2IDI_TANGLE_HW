@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "M2IDI_CORE")
+    (date "2023-04-19")
+    (rev "1.1")
+    (company "GuavTek")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_01x06_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 7.62 0)

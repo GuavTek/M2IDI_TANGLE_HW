@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "M2IDI_FRONT")
+    (date "2023-04-19")
+    (rev "1.1")
+    (company "GuavTek")
+  )
+
   (lib_symbols
     (symbol "Connector:Screw_Terminal_01x01" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 2.54 0)

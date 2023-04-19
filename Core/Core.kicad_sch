@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "M2IDI_CORE")
+    (date "2023-04-19")
+    (rev "1.1")
+    (company "GuavTek")
+  )
+
   (lib_symbols
     (symbol "74xx:74HC595" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -7.62 13.97 0)
