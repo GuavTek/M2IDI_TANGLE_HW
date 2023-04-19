@@ -6,7 +6,7 @@
 
   (paper "A4")
   (title_block
-    (title "M2IDI_IO")
+    (title "M2IDI - TANGLE IO")
     (date "2023-04-19")
     (rev "1.1")
     (company "GuavTek")
