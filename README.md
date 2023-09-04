@@ -1,3 +1,4 @@
+This eurorack module is an analog multiplexer controlled via the internal bus. Mappings can be recalled with MIDI program change messages.
 View this project on [CADLAB.io](https://cadlab.io/project/25238) to see renders of schematics and PCB, as well as current issues. 
 
 <h2> A part of the M2IDI prototypes </h2>
